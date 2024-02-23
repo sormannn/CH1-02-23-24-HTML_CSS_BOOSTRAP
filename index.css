@@ -1,0 +1,71 @@
+body {
+	
+}
+
+#title {
+    background: linear-gradient(-45deg, red, #ff00ff, blue);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.feature {
+	border-right:1px solid #e0e0e0;
+}
+
+li:last-child a {
+	background-position:-100px 7px ;
+}
+
+/* li:last-child {
+	border-right:1px solid #e0e0e0;
+	background:black;
+} */
+
+
+.link-block-20 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-decoration: none;
+    display: flex;
+}
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 16px;
+    display: flex;
+}
+
+.carousel {
+	background-color :#F1F3FF;
+	width:832px;
+	height:270px;
+	margin: 0 auto;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("Left button.svg");
+  }
+
+.carousel-control-next-icon {
+	background-image: url("Right button.svg");
+  }
+
+
